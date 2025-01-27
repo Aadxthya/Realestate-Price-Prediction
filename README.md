@@ -1,29 +1,47 @@
-Streamlit
+# Bengaluru Housing Price Prediction 🏡
 
-For creating an interactive web application to display and interact with data.
-Allows user input for location, square feet, bathrooms, and bedrooms to predict prices.
-Pandas
+This project predicts housing prices in Bengaluru based on features such as location, square feet, bedrooms, and bathrooms. It includes an interactive web application built with **Streamlit**, enabling users to input details and get real-time predictions. The project also features data analysis, preprocessing, and visualizations to provide insights into housing trends.
 
-For data manipulation and preprocessing.
-Used for tasks such as cleaning data, handling missing values, feature engineering, and analyzing data.
-NumPy
+---
 
-For numerical operations, such as handling arrays and applying mathematical functions.
-Used to process numerical features like square feet and prices.
-Matplotlib
+## 🚀 Technologies Used
 
-For creating basic visualizations and plots (e.g., histograms and scatter plots).
-Helps in understanding data distribution and relationships during preprocessing.
-Plotly Express
+### **Frontend**
+- **Streamlit**: For creating an interactive web application to display and interact with data.
 
-For advanced, interactive visualizations integrated into the Streamlit app.
-Used to display plots such as bar charts, line plots, and scatter plots for comparing locations and price predictions.
-Scikit-learn
+### **Data Processing**
+- **Pandas**: Used for data manipulation, preprocessing, handling missing values, feature engineering, and analysis.
+- **NumPy**: Handles numerical operations such as processing arrays and applying mathematical functions.
 
-For building and training the machine learning model (Linear Regression in this case).
-Also used for splitting the data into training and testing datasets.
-Pickle
+### **Visualizations**
+- **Matplotlib**: For basic visualizations like histograms and scatter plots to understand data distribution.
+- **Plotly Express**: For advanced, interactive visualizations integrated into the Streamlit app, including bar charts, line plots, and scatter plots.
 
-To serialize and save the trained model for reuse without retraining
+### **Machine Learning**
+- **Scikit-learn**: For building and training the machine learning model (Linear Regression), as well as splitting data into training and testing sets.
+- **Pickle**: To serialize and save the trained model for reuse without retraining.
 
-Analysed, preprocessed, cleaned and predicted the price for different housing in Bengaluru city using machine learning based on different features such as bhk, location, square feet etc. The project includes an interactive webpage built using streamlit. 
+---
+
+## 📊 Features
+
+- **Data Analysis and Preprocessing**:
+  - Cleaned and analyzed housing data to ensure reliable predictions.
+  - Handled missing values and applied feature engineering for better performance.
+
+- **Interactive Web App**:
+  - Users can input location, square feet, bedrooms, and bathrooms to predict housing prices.
+  - Visualizes housing trends using interactive plots.
+
+- **Machine Learning**:
+  - Trained a **Linear Regression** model to predict prices based on input features.
+  - Model is serialized with **Pickle** for efficient reuse.
+
+---
+
+## 🔧 Installation
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/bengaluru-housing-prediction.git
+   cd bengaluru-housing-prediction
